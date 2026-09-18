@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 5ec95c0750b77fc4ca49293e4b95b2a7
+timeCreated: 1489752199
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Scripts/Editor/Objects/SofaCylinderEditor.cs
+  uploadId: 679475

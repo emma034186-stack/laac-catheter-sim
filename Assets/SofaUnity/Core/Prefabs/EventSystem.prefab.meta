@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1d5c4006323a50c438dbf82a989141ae
+timeCreated: 1520261903
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Prefabs/EventSystem.prefab
+  uploadId: 679475

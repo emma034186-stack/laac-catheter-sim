@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5c8a0f478be252145a3fe5a066df5764
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Endoscopy/BeamAdapter/SofaScenes/mesh/Kidney_full/KV1_KidneyLeft.mtl
+  uploadId: 679475

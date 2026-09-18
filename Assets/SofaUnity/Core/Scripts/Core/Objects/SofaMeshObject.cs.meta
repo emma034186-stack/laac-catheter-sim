@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 7694828eeafc6974e9930bde90552bce
+timeCreated: 1498478492
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Scripts/Core/Objects/SofaMeshObject.cs
+  uploadId: 679475

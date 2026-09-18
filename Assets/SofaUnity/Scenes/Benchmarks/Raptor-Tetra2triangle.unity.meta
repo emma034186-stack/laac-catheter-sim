@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 677ab4d0de7c40c47b663dcf8141d97e
+timeCreated: 1555683738
+licenseType: Store
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Benchmarks/Raptor-Tetra2triangle.unity
+  uploadId: 679475

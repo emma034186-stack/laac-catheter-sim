@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 6e54f1a217faa90449b725fdbaf71968
+timeCreated: 1501599974
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Scripts/Utils/randomPosition.cs
+  uploadId: 679475

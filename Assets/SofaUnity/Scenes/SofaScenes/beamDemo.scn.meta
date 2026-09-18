@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a1e5119ab0f84e144b4420f8dd10268f
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/SofaScenes/beamDemo.scn
+  uploadId: 679475

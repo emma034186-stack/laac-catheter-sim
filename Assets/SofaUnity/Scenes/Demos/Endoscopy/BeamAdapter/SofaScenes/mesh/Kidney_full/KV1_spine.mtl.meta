@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 88121e6efd6e9784c8e08d8db96b278d
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Endoscopy/BeamAdapter/SofaScenes/mesh/Kidney_full/KV1_spine.mtl
+  uploadId: 679475

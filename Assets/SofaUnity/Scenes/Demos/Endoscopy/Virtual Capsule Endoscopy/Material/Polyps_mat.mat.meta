@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0828acb0f34f0594cb8a8d7c82bfdb15
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Endoscopy/Virtual Capsule Endoscopy/Material/Polyps_mat.mat
+  uploadId: 679475

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a4f5c66fc05a7054aadb077eea1a49a3
+NativeFormatImporter:
+  mainObjectFileID: -1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/Materials/laser.mat
+  uploadId: 679475

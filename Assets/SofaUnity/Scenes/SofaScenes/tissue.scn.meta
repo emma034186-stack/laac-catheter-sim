@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f8b32c93c23a89c408456cd4f07c3429
+timeCreated: 1520810199
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/SofaScenes/tissue.scn
+  uploadId: 679475

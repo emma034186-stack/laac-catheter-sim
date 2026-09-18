@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 27db65886b88a614aa2bf2294935b6db
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Endoscopy/BeamAdapter/SofaScenes/mesh/Urinary_system/Materials/Adrenal_Gland_Right.mat
+  uploadId: 679475

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 097b4d1ab7cc3cf408eb2b36efe97727
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/SofaScenes/mesh/PointLine51gmesh.msh
+  uploadId: 679475

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e9ebb48b57973584b93d1f5840771ab9
+timeCreated: 1501776591
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/Materials/Frog.mat
+  uploadId: 679475

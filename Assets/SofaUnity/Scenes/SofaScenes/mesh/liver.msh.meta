@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a090f0ee89f260140a6e51fcadae04f3
+timeCreated: 1491919286
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/SofaScenes/mesh/liver.msh
+  uploadId: 679475

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 682060ba42e24d44eaee744a4012544a
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/Shaders/HighlightSurface_shader.shader
+  uploadId: 679475

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7b66a048c0503cd48bfc2e48ff549f54
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Endoscopy/BeamAdapter/SofaScenes/mesh/Kidney_full/KV1_ureter_reduced.mtl
+  uploadId: 679475

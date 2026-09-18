@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a49780c09f5caf941af4490165ee2a22
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Endoscopy/BeamAdapter/SofaScenes/mesh/Urinary_system/Materials/Kidney_Left.mat
+  uploadId: 679475

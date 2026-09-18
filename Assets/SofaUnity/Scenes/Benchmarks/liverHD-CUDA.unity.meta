@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: caad37aa534b36d488a1b0799a2f80f2
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Benchmarks/liverHD-CUDA.unity
+  uploadId: 679475

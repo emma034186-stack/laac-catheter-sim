@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4ab46f6e03285d64a8b2a1d94c0f8aee
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/SofaScenes/SurfacePressureForceField.scn
+  uploadId: 679475

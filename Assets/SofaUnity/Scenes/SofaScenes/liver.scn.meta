@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4b10babc90496cc44a5422a91132eb61
+timeCreated: 1491919286
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/SofaScenes/liver.scn
+  uploadId: 679475

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 3c35b0659c0b3894ba33df4c089b9125
+timeCreated: 1544483985
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/Materials/ReflectSurface.mat
+  uploadId: 679475

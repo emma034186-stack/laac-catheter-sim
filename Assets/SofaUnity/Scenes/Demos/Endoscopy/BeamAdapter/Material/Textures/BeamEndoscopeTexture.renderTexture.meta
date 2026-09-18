@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7a8a7736bb1d0ec488b8904616965597
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Endoscopy/BeamAdapter/Material/Textures/BeamEndoscopeTexture.renderTexture
+  uploadId: 679475

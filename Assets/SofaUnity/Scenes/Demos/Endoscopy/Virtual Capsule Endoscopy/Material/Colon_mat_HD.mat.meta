@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7458870825421f34c8dd83b6411ea111
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Endoscopy/Virtual Capsule Endoscopy/Material/Colon_mat_HD.mat
+  uploadId: 679475

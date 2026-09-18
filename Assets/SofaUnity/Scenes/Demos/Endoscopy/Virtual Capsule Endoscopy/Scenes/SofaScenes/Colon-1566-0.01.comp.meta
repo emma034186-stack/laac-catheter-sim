@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 943e856972b0683448c8076e822f474a
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Endoscopy/Virtual Capsule Endoscopy/Scenes/SofaScenes/Colon-1566-0.01.comp
+  uploadId: 679475

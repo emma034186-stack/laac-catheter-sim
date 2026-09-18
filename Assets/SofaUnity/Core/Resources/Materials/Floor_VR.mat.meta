@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 443c156f5f855274584b390af7229dbd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/Materials/Floor_VR.mat
+  uploadId: 679475

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 2015dc841119b8b46851620fd6d9bd45
+timeCreated: 1501690335
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Scripts/Modules/GridObjects/SofaBox.cs
+  uploadId: 679475

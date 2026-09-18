@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2afe3fb2f00fc824d82ca1e2d0793dac
+timeCreated: 1518636639
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/Materials/constructionBox.mat
+  uploadId: 679475

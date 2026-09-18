@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2a3f2bccc59026c4aa8a6c330f1ca01b
+timeCreated: 1490963309
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/Materials/Floor.mat
+  uploadId: 679475

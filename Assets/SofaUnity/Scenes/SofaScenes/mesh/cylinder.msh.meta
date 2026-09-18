@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 27faa691e9f819f4e8a92b3df877e5a9
+timeCreated: 1507303486
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/SofaScenes/mesh/cylinder.msh
+  uploadId: 679475

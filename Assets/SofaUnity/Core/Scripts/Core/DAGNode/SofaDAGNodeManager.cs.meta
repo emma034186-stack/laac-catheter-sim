@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 251c8a10bf2d1e145a04f1d2d79ee7f9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Scripts/Core/DAGNode/SofaDAGNodeManager.cs
+  uploadId: 679475

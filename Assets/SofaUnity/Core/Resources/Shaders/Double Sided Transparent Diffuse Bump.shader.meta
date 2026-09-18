@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 102ae67d75d24bf49b90cba8fedb7360
+timeCreated: 1489416242
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/Shaders/Double Sided Transparent Diffuse
+    Bump.shader
+  uploadId: 679475

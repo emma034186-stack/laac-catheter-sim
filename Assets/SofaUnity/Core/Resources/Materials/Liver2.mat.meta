@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fdad68fcd2cb3a4498eeea72652b1684
+timeCreated: 1490963310
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/Materials/Liver2.mat
+  uploadId: 679475

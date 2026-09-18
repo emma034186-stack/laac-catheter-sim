@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 6cacb9b69c6c1bf4da2d8184d847a186
+timeCreated: 1566937964
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Scripts/Utils/LoadSceneScript.cs
+  uploadId: 679475

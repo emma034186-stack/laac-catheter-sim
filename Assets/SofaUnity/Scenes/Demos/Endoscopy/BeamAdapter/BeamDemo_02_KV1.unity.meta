@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c5117b191718ffa40b7939e6ea62db8b
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Endoscopy/BeamAdapter/BeamDemo_02_KV1.unity
+  uploadId: 679475

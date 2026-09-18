@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 20f62209e5329d34d8b31e77ab006f36
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/SofaScenes/HeatBeam.scn
+  uploadId: 679475

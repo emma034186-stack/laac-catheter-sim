@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<!--
+    LAAC_Catheter.scn
+
+    Preliminary continuum-mechanics catheter simulation for LAAC (left atrial
+    appendage closure) delivery-sheath navigation: IVC -> RA -> transseptal
+    puncture -> LA -> LAA ostium.
+
+    Adapted from the SofaUnity BeamAdapter demo (KV1-Catheter.scn, InfinyTech3D)
+    which uses the SOFA BeamAdapter plugin's Cosserat/Kirchhoff-rod beam model
+    (Duriez, Cotin et al., "New approaches to catheter navigation for
+    interventional radiology simulation", Computer Aided Surgery, 2006).
+    Catheter mechanical parameters (youngModulus, massDensity) are kept at the
+    demo's proven-stable values; only geometry (radius, section lengths) and
+    the collision surface were changed for the LAAC scenario. These should be
+    recalibrated once real device datasheet values are available.
+
+    Vessel/chamber collision mesh: mesh/LAAC_Vessel/LAAC_vessel_path.obj
+    -- an IDEALIZED placeholder tube (see generate_vessel_mesh.py in that
+    folder), not a patient-specific CT segmentation. Replace with the real
+    Marching Cubes-reconstructed vessel mesh (research method (一)) once
+    available; keep the same coordinate convention (path starts at local
+    origin, initial tangent close to +X) so startingPos below stays valid.
+
+    Control (via existing SofaKeyEvent -> SofaContext.SofaKeyPressEvent,
+    already wired in this demo's .unity scene): Up/Down arrow = advance /
+    retract insertion (xtip), Left/Right arrow = rotate catheter about its
+    axis. This is the BeamAdapter plugin's native InterventionalRadiology
+    Controller key handling, unchanged from the original demo.
+-->
+<Node name="root" dt="0.005"  gravity="0 0 0">
+    <RequiredPlugin name="Sofa.Component.AnimationLoop"/> <!-- Needed to use components [FreeMotionAnimationLoop] -->
+    <RequiredPlugin name="Sofa.Component.Collision.Detection.Algorithm"/> <!-- Needed to use components [BVHNarrowPhase, BruteForceBroadPhase, DefaultPipeline] -->
+    <RequiredPlugin name="Sofa.Component.Collision.Detection.Intersection"/> <!-- Needed to use components [LocalMinDistance] -->
+    <RequiredPlugin name="Sofa.Component.Collision.Geometry"/> <!-- Needed to use components [LineCollisionModel, PointCollisionModel, TriangleCollisionModel] -->
+    <RequiredPlugin name="Sofa.Component.Collision.Response.Contact"/> <!-- Needed to use components [DefaultContactManager] -->
+    <RequiredPlugin name="Sofa.Component.Constraint.Lagrangian.Correction"/> <!-- Needed to use components [LinearSolverConstraintCorrection] -->
+    <RequiredPlugin name="Sofa.Component.Constraint.Lagrangian.Solver"/> <!-- Needed to use components [LCPConstraintSolver] -->
+    <RequiredPlugin name="Sofa.Component.Constraint.Projective"/> <!-- Needed to use components [FixedConstraint] -->
+    <RequiredPlugin name="Sofa.Component.IO.Mesh"/> <!-- Needed to use components [MeshOBJLoader] -->
+    <RequiredPlugin name="Sofa.Component.LinearSolver.Direct"/> <!-- Needed to use components [BTDLinearSolver] -->
+    <RequiredPlugin name="Sofa.Component.Mapping.Linear"/> <!-- Needed to use components [IdentityMapping] -->
+    <RequiredPlugin name="Sofa.Component.ODESolver.Backward"/> <!-- Needed to use components [EulerImplicitSolver] -->
+    <RequiredPlugin name="Sofa.Component.SceneUtility"/> <!-- Needed to use components [InfoComponent] -->
+    <RequiredPlugin name="Sofa.Component.SolidMechanics.Spring"/> <!-- Needed to use components [RestShapeSpringsForceField] -->
+    <RequiredPlugin name="Sofa.Component.StateContainer"/> <!-- Needed to use components [MechanicalObject] -->
+    <RequiredPlugin name="Sofa.Component.Topology.Container.Constant"/> <!-- Needed to use components [MeshTopology] -->
+    <RequiredPlugin name="Sofa.Component.Topology.Container.Dynamic"/> <!-- Needed to use components [EdgeSetGeometryAlgorithms, EdgeSetTopologyContainer, EdgeSetTopologyModifier] -->
+    <RequiredPlugin name="Sofa.Component.Topology.Container.Grid"/> <!-- Needed to use components [RegularGridTopology] -->
+    <RequiredPlugin name="Sofa.Component.Visual"/> <!-- Needed to use components [VisualStyle] -->
+    <RequiredPlugin name="Sofa.GL.Component.Rendering3D"/> <!-- Needed to use components [OglModel] -->
+    <RequiredPlugin name="BeamAdapter" />
+
+    <VisualStyle displayFlags="showVisualModels showBehaviorModels showCollisionModels hideMappings hideForceFields" />
+    <FreeMotionAnimationLoop />
+    <LCPConstraintSolver mu="0.1" tolerance="1e-4" maxIt="2500" build_lcp="false" />
+
+    <CollisionPipeline depth="6" verbose="1" draw="1"/>
+    <BruteForceBroadPhase/>
+    <BVHNarrowPhase/>
+    <LocalMinDistance name="localmindistance" alarmDistance="12" contactDistance="1.4" angleCone="0.8" coneFactor="0.8"/>
+    <CollisionResponse name="Response" response="FrictionContactConstraint" />
+
+    <Node  name="NavigationSceneNode">
+        <!-- Shape of the LAAC delivery catheter/sheath -->
+        <Node name="topoLines_cath">
+            <!-- Proximal straight shaft: sized to cover the full IVC->LAA path (~310mm) -->
+            <RodStraightSection name="StraightSection" youngModulus="25e3" radius="2.3" nbEdgesCollis="90" nbEdgesVisu="140" length="300.0"/>
+            <!-- Steerable distal tip (preformed curve typical of a transseptal sheath) -->
+            <RodSpireSection name="SpireSection" youngModulus="25e3" radius="2.3" nbEdgesCollis="10" nbEdgesVisu="20" length="12.0" spireDiameter="18" spireHeight="0.0"/>
+            <WireRestShape template="Rigid3d" name="catheterRestShape" wireMaterials="@StraightSection @SpireSection"/>
+
+            <EdgeSetTopologyContainer name="meshLinesCath"/>
+            <EdgeSetTopologyModifier name="Modifier"/>
+            <EdgeSetGeometryAlgorithms name="GeomAlgo" template="Rigid3d" />
+            <MechanicalObject name="dofTopo1" template="Rigid3d"/>
+        </Node>
+
+        <!-- Interactive catheter and physics on it -->
+        <Node name="InstrumentCombined">
+            <EulerImplicitSolver printLog="false" rayleighStiffness="0.2" rayleighMass="0.2"/>
+            <BTDLinearSolver/>
+            <RegularGridTopology name="meshLinesCombined" nx="200" ny="1" nz="1"
+                xmax="0.0" xmin="0.0" ymax="0" ymin="0" zmax="0" zmin="0"
+                p0="0 0 0" />
+            <!-- startingPos = position (IVC entry, path origin) + quaternion (x y z w).
+                 Identity rotation approximates the path's initial tangent (~+X);
+                 nudge if the catheter does not align flush with the vessel entry. -->
+            <MechanicalObject name="DOFs" template="Rigid3d" translation="0 0 0" rotation="0 0 0"/>
+
+            <WireBeamInterpolation name="InterpolCatheter" WireRestShape="@../topoLines_cath/catheterRestShape" radius="2.3"/>
+            <AdaptiveBeamForceFieldAndMass interpolation="@InterpolCatheter" massDensity="0.0000155" name="CatheterForceField" />
+
+            <BeamAdapterActionController name="AController" interventionController="@DeployController" writeMode="1" />
+            <InterventionalRadiologyController name="DeployController" listening="true" template="Rigid3d"
+                controlledInstrument="0" instruments="InterpolCatheter" speed="0.0"
+                 step="0.4" xtip="30.0" startingPos="0 0 0   0 0 0 1"
+            />
+
+            <LinearSolverConstraintCorrection printLog="0" wire_optimization="true"/>
+            <FixedConstraint name="FixStart1" indices="0" />
+            <RestShapeSpringsForceField name="RestSPForceField" points="@DeployController.indexFirstNode" angularStiffness="1e8" stiffness="1e8"/>
+
+            <Node name="CollisionModel">
+                <EdgeSetTopologyContainer name="collisEdgeSet" />
+                <EdgeSetTopologyModifier name="colliseEdgeModifier" />
+                <MechanicalObject name="CollisionDOFs" />
+                <MultiAdaptiveBeamMapping controller="../DeployController" useCurvAbs="1" name="collisMap" />
+                <LineCollisionModel proximity="3.0" contactStiffness="3000" />
+                <PointCollisionModel proximity="3.0" contactStiffness="3000" />
+            </Node>
+        </Node>
+    </Node>
+
+    <!-- Collision model of the vessel/chamber path (idealized placeholder geometry) -->
+    <Node name="LAAC_Vessel">
+        <MeshOBJLoader name="meshLoader" scale3d="1 1 1" filename="../mesh/LAAC_Vessel/LAAC_vessel_path.obj" triangulate="true" flipNormals="1"/>
+        <MeshTopology position="@meshLoader.position" triangles="@meshLoader.triangles"/>
+        <MechanicalObject name="mecaVessel" position="0 0 0" showObject="1"/>
+        <TriangleCollisionModel simulated="0" moving="0" contactStiffness="2000"/>
+        <LineCollisionModel simulated="0" moving="0" contactStiffness="2000"/>
+        <PointCollisionModel simulated="0" moving="0" contactStiffness="2000"/>
+
+        <Node name="VesselVisu">
+            <OglModel name="OglVessel" color="0.8 0.2 0.2 0.35" />
+            <IdentityMapping input="@../mecaVessel" output="@OglVessel"/>
+        </Node>
+    </Node>
+
+</Node>

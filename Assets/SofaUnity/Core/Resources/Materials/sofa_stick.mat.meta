@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e270af4f66c72aa429af41de7a3de5fd
+timeCreated: 1498227617
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/Materials/sofa_stick.mat
+  uploadId: 679475

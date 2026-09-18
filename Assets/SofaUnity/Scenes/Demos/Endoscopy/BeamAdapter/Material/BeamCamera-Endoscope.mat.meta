@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f9fb16d4a72f6ee42bb684516effb220
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Endoscopy/BeamAdapter/Material/BeamCamera-Endoscope.mat
+  uploadId: 679475

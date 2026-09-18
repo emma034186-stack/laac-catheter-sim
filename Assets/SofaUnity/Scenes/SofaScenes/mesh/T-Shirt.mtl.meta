@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7a0b25c7f8d282b4f85bc34267eb01f9
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/SofaScenes/mesh/T-Shirt.mtl
+  uploadId: 679475

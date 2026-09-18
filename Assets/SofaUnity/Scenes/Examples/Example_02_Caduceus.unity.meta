@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6d248971f32b51d4da78b6daedaf8d76
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Examples/Example_02_Caduceus.unity
+  uploadId: 679475

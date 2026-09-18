@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 8ace077662ccf194c93e1d0e0d09a02d
+timeCreated: 1507105876
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Scripts/Modules/CuttingTools/TriangleCutter.cs
+  uploadId: 679475

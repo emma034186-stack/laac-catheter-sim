@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 817fe68a77b87d84ea4f29ebde610551
+timeCreated: 1499803421
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/Materials/fog.mat
+  uploadId: 679475

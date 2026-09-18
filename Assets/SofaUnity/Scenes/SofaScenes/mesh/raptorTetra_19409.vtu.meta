@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 646ed883717fce541afc0526ed204685
+timeCreated: 1555686234
+licenseType: Store
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/SofaScenes/mesh/raptorTetra_19409.vtu
+  uploadId: 679475

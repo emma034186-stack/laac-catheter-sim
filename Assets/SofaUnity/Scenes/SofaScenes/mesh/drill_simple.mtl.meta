@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8540f2e7eea3eb744af89b57ed295f07
+timeCreated: 1538050658
+licenseType: Store
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/SofaScenes/mesh/drill_simple.mtl
+  uploadId: 679475

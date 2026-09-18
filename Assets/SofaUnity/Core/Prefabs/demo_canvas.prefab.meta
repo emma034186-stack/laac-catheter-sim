@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f84f0ef099e69684fa3c4a431e397927
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Prefabs/demo_canvas.prefab
+  uploadId: 679475

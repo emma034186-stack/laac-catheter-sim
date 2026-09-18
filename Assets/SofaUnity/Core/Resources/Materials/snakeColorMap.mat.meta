@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8bb4a774c0131ce44a0eb7d7d653490d
+timeCreated: 1499115099
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/Materials/snakeColorMap.mat
+  uploadId: 679475

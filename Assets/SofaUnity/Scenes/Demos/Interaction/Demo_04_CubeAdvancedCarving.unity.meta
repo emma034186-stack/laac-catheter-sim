@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 90c77a9ea85d42047b353be46b48dc6e
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Interaction/Demo_04_CubeAdvancedCarving.unity
+  uploadId: 679475

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d1b0b16239625d942933df3fddde6e5d
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Interaction/Demo_05_LiverCut.unity
+  uploadId: 679475

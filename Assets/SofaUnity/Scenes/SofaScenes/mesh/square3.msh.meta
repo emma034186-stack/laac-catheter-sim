@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ff60e63ac3c7d3149ae3c286d06ec8a6
+timeCreated: 1490141321
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/SofaScenes/mesh/square3.msh
+  uploadId: 679475

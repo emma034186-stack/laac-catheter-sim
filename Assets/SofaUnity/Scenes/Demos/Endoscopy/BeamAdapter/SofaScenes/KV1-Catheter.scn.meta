@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 03efc14d5c6a9144c9a3c2b89f84cf11
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Endoscopy/BeamAdapter/SofaScenes/KV1-Catheter.scn
+  uploadId: 679475

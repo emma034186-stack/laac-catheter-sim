@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3c378f3ec8454734d8eda22ca4630ebc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Scripts/Editor/Components/SofaBeamModelEditor.cs
+  uploadId: 679475

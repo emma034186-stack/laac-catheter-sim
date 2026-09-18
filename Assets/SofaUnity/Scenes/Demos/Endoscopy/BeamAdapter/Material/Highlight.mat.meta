@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5de80144b6672f6488979c5d1f56ed40
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Endoscopy/BeamAdapter/Material/Highlight.mat
+  uploadId: 679475

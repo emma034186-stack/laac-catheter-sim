@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e0e8e37443ca7934f8ab2e4e4da89448
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Endoscopy/Virtual Capsule Endoscopy/Scenes/SofaScenes/Capsule_narrow_intestin_simulation.scn
+  uploadId: 679475

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3e9e65b8a26272d42aa41a51441ad830
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/SofaScenes/mesh/liver3.stl
+  uploadId: 679475

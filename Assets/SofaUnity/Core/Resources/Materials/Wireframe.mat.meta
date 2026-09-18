@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: cc9fded3befdfc041b96c0695f5daeab
+timeCreated: 1509531666
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/Materials/Wireframe.mat
+  uploadId: 679475

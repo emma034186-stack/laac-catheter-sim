@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 06c5166cfe94a09419b7166ccf07cd9e
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/Shaders/HeatMapShader.shader
+  uploadId: 679475

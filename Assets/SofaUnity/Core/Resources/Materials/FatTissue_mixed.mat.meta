@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bcf0d984090a2d14ba29ff2a83b0994d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/Materials/FatTissue_mixed.mat
+  uploadId: 679475

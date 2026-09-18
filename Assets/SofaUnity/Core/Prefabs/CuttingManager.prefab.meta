@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 757e2e81708879544a532d432da8bfbc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Prefabs/CuttingManager.prefab
+  uploadId: 679475

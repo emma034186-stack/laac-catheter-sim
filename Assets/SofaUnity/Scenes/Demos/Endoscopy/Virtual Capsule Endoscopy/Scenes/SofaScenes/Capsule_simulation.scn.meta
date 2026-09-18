@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 03317a81db459ec42ba73b6a17c849c9
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Endoscopy/Virtual Capsule Endoscopy/Scenes/SofaScenes/Capsule_simulation.scn
+  uploadId: 679475

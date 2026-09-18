@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 614577478b88e7540a6a8fad40d4ab48
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/Materials/Plastic.mat
+  uploadId: 679475

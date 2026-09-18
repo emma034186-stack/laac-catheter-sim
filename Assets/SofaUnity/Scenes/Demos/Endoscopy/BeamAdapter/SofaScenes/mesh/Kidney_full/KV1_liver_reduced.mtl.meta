@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9eae8dc55c8c6b14582cb7aedb5d6ce6
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Endoscopy/BeamAdapter/SofaScenes/mesh/Kidney_full/KV1_liver_reduced.mtl
+  uploadId: 679475

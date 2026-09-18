@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 17362a953abe42941a4013da05590b8e
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/SofaScenes/mesh/dummy_collision.mtl
+  uploadId: 679475

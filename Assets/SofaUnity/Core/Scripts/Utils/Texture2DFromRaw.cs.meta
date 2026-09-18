@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a12f2c41b0a379540a16a6758b29964d
+timeCreated: 1517966430
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Scripts/Utils/Texture2DFromRaw.cs
+  uploadId: 679475

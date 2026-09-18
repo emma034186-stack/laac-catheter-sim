@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: db9463140cc77c74db038ad5c158df2c
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Examples/Example_01_SimpleLiver.unity
+  uploadId: 679475

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 250a25bf917cca646a0cd62a263d50e7
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Interaction/Demo_06_LiverCut-CUDA.unity
+  uploadId: 679475

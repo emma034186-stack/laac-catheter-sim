@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 307e07c331784574ba9a64753ca04e09
+timeCreated: 1566574820
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Scripts/Utils/GameUI/RadialProgressBar.cs
+  uploadId: 679475

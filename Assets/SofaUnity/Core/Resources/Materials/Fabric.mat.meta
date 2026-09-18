@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 24a9470f220530a4b93b59db9b274aa1
+timeCreated: 1492162812
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/Materials/Fabric.mat
+  uploadId: 679475

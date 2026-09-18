@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0b41ff8ad0b0e214db1ee53e5390b905
+timeCreated: 1550495104
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Prefabs/demo_box.prefab
+  uploadId: 679475

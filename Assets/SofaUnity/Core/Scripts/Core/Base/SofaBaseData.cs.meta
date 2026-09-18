@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 1b09af5b6f8bab34da1c1243a274b58c
+timeCreated: 1517914955
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Scripts/Core/Base/SofaBaseData.cs
+  uploadId: 679475

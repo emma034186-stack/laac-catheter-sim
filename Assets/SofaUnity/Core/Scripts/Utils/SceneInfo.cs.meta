@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: b1d84e2839ce7af4a8ba0ab5c0f5b6db
+timeCreated: 1562089156
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Scripts/Utils/SceneInfo.cs
+  uploadId: 679475

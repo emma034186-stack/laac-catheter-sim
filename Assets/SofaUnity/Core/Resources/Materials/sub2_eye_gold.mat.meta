@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0268c83dbc62d694f849a608f1535c85
+timeCreated: 1498227616
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/Materials/sub2_eye_gold.mat
+  uploadId: 679475

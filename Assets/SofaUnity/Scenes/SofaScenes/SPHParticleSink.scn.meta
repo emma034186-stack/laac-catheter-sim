@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7efcec3cb053642419b1c59822cca4d3
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/SofaScenes/SPHParticleSink.scn
+  uploadId: 679475

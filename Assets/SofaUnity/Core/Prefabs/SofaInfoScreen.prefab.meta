@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3c4e55ebcef49ab4096d0209c9877d76
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Prefabs/SofaInfoScreen.prefab
+  uploadId: 679475

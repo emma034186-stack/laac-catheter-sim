@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6e936b1d1f1b07d45bb74601a0e55368
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Plugins/SofaUnityAPI/ComponentsAPI/SofaVisualModelAPI.cs
+  uploadId: 679475

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 84b203b9c60299940b705a0fc04a9138
+timeCreated: 1493302569
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/Materials/Metal_tool.mat
+  uploadId: 679475

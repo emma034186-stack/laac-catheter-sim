@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b31db7e6adaae5148be0d5e129716c09
+timeCreated: 1498227616
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/Materials/sub2_eye_transp.mat
+  uploadId: 679475

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2c97b93871c4da34c9132fa28bcccda5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/Materials/Jelly.mat
+  uploadId: 679475

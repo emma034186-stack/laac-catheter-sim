@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c7a78654346c21042b7bb17bd3682d65
+timeCreated: 1489758305
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Scripts/Editor/Objects/SofaPlaneEditor.cs
+  uploadId: 679475

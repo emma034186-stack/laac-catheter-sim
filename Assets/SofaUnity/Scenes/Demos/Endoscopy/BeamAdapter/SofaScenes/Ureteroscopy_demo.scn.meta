@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3e7bea0fd42abf64e83f2abe65d59bb8
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Endoscopy/BeamAdapter/SofaScenes/Ureteroscopy_demo.scn
+  uploadId: 679475

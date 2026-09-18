@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dbafd26b8285cf345bdfa4df02e1251e
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/SofaScenes/liver-tetra2triangle-CUDA.scn
+  uploadId: 679475

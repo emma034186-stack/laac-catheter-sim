@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5af6e09f03cfc3442a8a1a8fe03eb810
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Endoscopy/Virtual Capsule Endoscopy/Scenes/SofaScenes/mesh/intestin_visu.mtl
+  uploadId: 679475

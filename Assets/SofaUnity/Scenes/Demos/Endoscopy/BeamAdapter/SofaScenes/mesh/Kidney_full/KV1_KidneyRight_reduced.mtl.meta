@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d0d126306f9c6034098b8069d3a51268
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/Demos/Endoscopy/BeamAdapter/SofaScenes/mesh/Kidney_full/KV1_KidneyRight_reduced.mtl
+  uploadId: 679475

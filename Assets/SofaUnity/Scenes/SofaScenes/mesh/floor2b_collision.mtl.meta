@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 64a73c8fbf30aea41b45a95f49ec9abc
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/SofaScenes/mesh/floor2b_collision.mtl
+  uploadId: 679475

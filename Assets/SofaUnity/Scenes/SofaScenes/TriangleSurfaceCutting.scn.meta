@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b142c19fb98a57c40a09580e9101e6d1
+timeCreated: 1490141321
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Scenes/SofaScenes/TriangleSurfaceCutting.scn
+  uploadId: 679475

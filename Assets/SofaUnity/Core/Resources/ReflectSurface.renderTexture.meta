@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f5dd3a0fa22459241b1df49a44768791
+timeCreated: 1544483762
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270170
+  packageName: SOFA Physics engine for Unity
+  packageVersion: 23.12.00
+  assetPath: Assets/SofaUnity/Core/Resources/ReflectSurface.renderTexture
+  uploadId: 679475
