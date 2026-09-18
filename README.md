@@ -36,6 +36,23 @@ Turned out to be three unrelated infrastructure problems stacked on top of each 
 
 ---
 
+## Restoring this project on a new machine
+
+1. Install **Unity 2022.3.46f1** (exact version — matches `ProjectSettings/ProjectVersion.txt`).
+2. Clone to an **ASCII-only path** (see §1.2 below for why — this isn't optional).
+3. Open the project folder with that Unity version. First open will take a while: `Library/` isn't checked in (regenerable build cache, excluded via `.gitignore`), so Unity has to reimport every asset from scratch.
+4. **Fix `sofa.ini` before pressing Play.** `Assets/SofaUnity/Core/Plugins/Native/x64/sofa.ini` has absolute paths baked in from the machine this was developed on:
+   ```
+   SHARE_DIR=D:/UnityProjects/LAAC_Catheter_Sim/Assets/SofaUnity/scenes/SofaScenes
+   EXAMPLES_DIR=D:/UnityProjects/LAAC_Catheter_Sim/Assets/SofaUnity/scenes/SofaScenes
+   LICENSE_DIR=D:/UnityProjects/LAAC_Catheter_Sim/Assets/SofaUnity/License/
+   PYTHON_DIR=D:/UnityProjects/LAAC_Catheter_Sim/Assets/SofaUnity/Core/Plugins/Native/x64/
+   ```
+   If you cloned to that exact path, these are already correct. Anywhere else, replace `D:/UnityProjects/LAAC_Catheter_Sim` in each line with your actual project path — same fix as §1.2/§1.3 below, just relocated. Skipping this reproduces the original `Sofa plugin loading failed. Cause: file not found.` symptom even though the files are right there.
+5. The 169 native DLLs (§1.1) are already included in this repo under `Core/Plugins/Native/x64/` — no separate download needed.
+
+---
+
 ## 1. Three infrastructure failures under one symptom
 
 Same call chain, three independent breaks. Fixing one just exposed the next.
