@@ -1,13 +1,5 @@
 # LAAC 導管模擬：新專案重建、效能修復與 GitHub 建檔紀錄
 
-**日期**：2026-09-17 深夜 ~ 2026-09-18
-**銜接**：`research-log_2026-09-16_LAAC-catheter-debug.md`（昨天的除錯紀錄，本次工作是在那個基礎上繼續）
-**舊專案**：`D:\UnityProjects\import`
-**新專案**：`D:\UnityProjects\LAAC_Catheter_Sim`（本次工作後半段重建的乾淨專案，取代舊專案）
-**GitHub**：https://github.com/emma034186-stack/laac-catheter-sim
-
----
-
 ## 0. 起因
 
 延續昨天的血管顯示修復工作，今天一開始想繼續在舊專案（`D:\UnityProjects\import`）上調攝影機、UI、血管材質。過程中使用者要求先還原到 9/16 的舊備份（血管顯示修好之前的版本），之後再手動移植血管 GameObject 回去。移植完成、碰撞也一度確認正常，但接著發現「內視鏡攝影機看不到血管」，往下查碰撞問題時，發現舊專案的 SOFA↔Unity 對接圖（DAGNodeManager reconnect）已經處於不穩定狀態：手動移植的 GameObject 沒有問題，但碰撞偵測（`CollisionPipeline` 的 debug draw）完全沒有任何輸出——問題比預期更根本。
