@@ -121,7 +121,7 @@ while (Time.time >= nextUpdate && stepsThisFrame < maxStepsPerFrame)
 
 ---
 
-## 8. 目前狀態與後續建議
+## 8. 目前狀態
 
 **已完成**：
 - 新專案碰撞、血管顯示、材質、攝影機、內視鏡追蹤皆已確認正常運作
