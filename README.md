@@ -157,7 +157,7 @@ Once the vessel actually rendered, the real problem showed up: the catheter tunn
 
 Radius profile from [`generate_vessel_mesh.py`](Assets/SofaUnity/Scenes/Demos/Endoscopy/BeamAdapter/mesh/LAAC_Vessel/generate_vessel_mesh.py) — a Catmull-Rom spline through 10 control points, swept with a parallel-transport frame to avoid the usual Frenet-frame flips at inflection points.
 
-![Vessel radius along the catheter path](assets/radius-profile.png)
+![Vessel radius along the catheter path](image/radius-profile.png)
 
 Ran a curvature check (turn angle between consecutive path samples) independently of the radius data, and the sharpest bend in the entire 160-sample path lands at *t ≈ 0.53* — which is, unsurprisingly, the same point flagged above as the narrowest. Catheter radius is 2.3mm; net clearance at that point is about 2.2mm. Tightest curve and tightest radius, stacked at the same location, and it's also the anatomically hardest step of the real procedure (transseptal puncture). Mesh itself checked clean otherwise — ran a script over all 2560 vertices / 5088 faces: zero degenerate triangles, consistently inward-facing normals, no abnormal radius jump between adjacent rings (max ~0.8mm).
 
