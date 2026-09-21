@@ -1,4 +1,4 @@
-# LAAC Catheter Sim: Project Rebuild, Performance Fix, and GitHub Setup
+# LAAC Catheter Sim: Project Rebuild, Performance Fix
 
 ## 0. Background
 
