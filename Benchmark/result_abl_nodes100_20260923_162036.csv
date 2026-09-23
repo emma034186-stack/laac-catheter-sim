@@ -1,0 +1,6 @@
+mode,phase,real_s,frames,fps_mean,frame_ms_mean,frame_ms_p95,steps,physics_hz_real,step_ms_mean,step_ms_p50,step_ms_p95,step_ms_max,backlog_frames_pct,capped_frames,key_presses,clearance_samples,surface_contact_samples,centerline_outside_samples,min_clearance_mm,max_surface_penetration_mm
+abl_nodes100,idle,8.32,24,2.9,346.60,349.57,240,28.9,30.022,29.868,30.867,35.727,100.0,24,0,24,0,0,1.80,-1.80
+abl_nodes100,advance,18.09,51,2.8,354.63,371.21,510,28.2,30.765,30.727,32.596,34.979,100.0,51,51,51,0,0,1.51,-1.51
+abl_nodes100,rotate,10.36,28,2.7,370.03,383.75,280,27.0,32.289,32.051,33.690,43.562,100.0,28,14,28,0,0,0.26,-0.26
+abl_nodes100,retract,10.22,28,2.7,364.97,377.67,280,27.4,31.792,31.666,33.670,40.436,100.0,28,28,28,0,0,0.21,-0.21
+abl_nodes100,ALL,46.98,131,2.8,358.66,376.97,1310,27.9,31.174,31.116,33.227,43.562,,,,,,,,

@@ -499,18 +499,24 @@ namespace SofaUnity
             // advance further per physics step than intended, coarsening
             // collision detection and making tunneling more likely.
             int stepsThisFrame = 0;
-            const int maxStepsPerFrame = 10; // safety cap against spiral-of-death stalls
+            // safety cap against spiral-of-death stalls; LAACBenchStats.LegacySingleStep
+            // reproduces the original plugin behaviour (at most one step per frame)
+            // so the benchmark can compare before/after this fix.
+            int maxStepsPerFrame = LAACBenchStats.LegacySingleStep ? 1 : 10;
             while (Time.time >= nextUpdate && stepsThisFrame < maxStepsPerFrame)
             {
                 nextUpdate += m_timeStep;
 
+                long t0 = System.Diagnostics.Stopwatch.GetTimestamp();
                 m_impl.step();
+                LAACBenchStats.OnStep(System.Diagnostics.Stopwatch.GetTimestamp() - t0);
 
                 if (m_nodeGraphMgr != null)
                     m_nodeGraphMgr.PropagateSetDirty(true);
 
                 stepsThisFrame++;
             }
+            LAACBenchStats.OnFrame(stepsThisFrame, Time.time >= nextUpdate);
         }
 
         protected void UpdateImplASync()

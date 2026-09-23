@@ -1,0 +1,8 @@
+LAAC benchmark  mode=current_noverbose  unity=2022.3.46f1  cpu=13th Gen Intel(R) Core(TM) i5-13500HX (20 threads)  gpu=NVIDIA GeForce RTX 4060 Laptop GPU
+dt=0.005s target physics rate=200Hz  vessel rings=160, min ring radius=6.72
+mode,phase,real_s,frames,fps_mean,frame_ms_mean,frame_ms_p95,steps,physics_hz_real,step_ms_mean,step_ms_p50,step_ms_p95,step_ms_max,backlog_frames_pct,capped_frames,key_presses,clearance_samples,surface_contact_samples,centerline_outside_samples,min_clearance_mm,max_surface_penetration_mm
+current_noverbose,idle,8.01,23,2.9,348.55,351.81,230,28.7,30.160,30.104,31.062,32.886,100.0,23,0,23,0,0,1.80,-1.80
+current_noverbose,advance,18.26,51,2.8,358.07,372.39,510,27.9,31.042,31.015,32.745,35.592,100.0,51,51,51,0,0,1.51,-1.51
+current_noverbose,rotate,10.00,27,2.7,370.41,376.39,270,27.0,32.304,32.237,33.582,41.339,100.0,27,14,27,0,0,0.26,-0.26
+current_noverbose,retract,10.20,28,2.7,364.42,379.64,280,27.4,31.710,31.630,33.582,36.280,100.0,28,28,28,0,0,0.24,-0.24
+current_noverbose,ALL,46.48,129,2.8,360.33,376.30,1290,27.8,31.294,31.250,33.191,41.339,,,,,,,,

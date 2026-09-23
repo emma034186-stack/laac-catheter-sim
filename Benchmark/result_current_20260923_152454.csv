@@ -1,0 +1,6 @@
+mode,phase,real_s,frames,fps_mean,frame_ms_mean,frame_ms_p95,steps,physics_hz_real,step_ms_mean,step_ms_p50,step_ms_p95,step_ms_max,backlog_frames_pct,capped_frames,key_presses,clearance_samples,surface_contact_samples,centerline_outside_samples,min_clearance_mm,max_surface_penetration_mm
+current,idle,8.13,23,2.8,353.44,374.93,230,28.3,30.625,30.213,33.606,36.807,100.0,23,0,23,0,0,1.80,-1.80
+current,advance,18.08,50,2.8,361.64,388.05,500,27.7,31.461,31.016,35.074,54.682,100.0,50,50,50,0,0,1.53,-1.53
+current,rotate,10.21,27,2.6,378.18,399.58,270,26.4,33.065,32.695,36.000,42.537,100.0,27,14,27,0,0,0.29,-0.29
+current,retract,10.02,27,2.7,371.08,390.44,270,26.9,32.343,31.983,35.821,43.136,100.0,27,27,27,0,0,0.31,-0.31
+current,ALL,46.44,127,2.7,365.68,388.80,1270,27.3,31.838,31.589,35.291,54.682,,,,,,,,

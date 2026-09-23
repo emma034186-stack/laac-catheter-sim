@@ -32,7 +32,7 @@ Turned out to be three unrelated infrastructure problems stacked on top of each 
 | Physics | SOFA Framework via [InfinyTech3D SofaUnity](https://github.com/InfinyTech3D/SofaUnity) (v23.12), BeamAdapter plugin |
 | Scene | `LAAC_Catheter_Demo.unity` |
 | SOFA scene | `SofaScenes/LAAC_Catheter.scn` |
-| Catheter model | Cosserat/Kirchhoff rod beam (Duriez, Cotin et al. 2006) |
+| Catheter model | 3D beam finite elements: BeamAdapter's adaptive beam model (Duriez, Cotin et al. 2006) |
 
 ---
 
@@ -169,13 +169,25 @@ In an open chamber (plenty of clearance by distance alone), holding the rotate k
 
 ---
 
+## 5. Performance benchmark (2026-09-23)
+
+Full write-up: [Devlog/2026-09-23-performance-benchmark.md](Devlog/2026-09-23-performance-benchmark.md). Raw results: [`Benchmark/`](Benchmark/).
+
+Added step timing to `SofaContext` plus a scripted, repeatable manoeuvre runner (menu **LAAC → Run Benchmark**) instead of judging collision "feel".
+
+- **One SOFA step costs ~31 ms**; real time at `dt = 5 ms` and 60 FPS needs < 5 ms. Neither stepping variant is real time.
+- The 2026-09-18 catch-up loop doubles the physics rate (13.5 → 27.3 Hz) but drops rendering from 13.5 to 2.7 FPS: every frame hits the 10-step cap.
+- One-factor ablation: LCP `maxIt` and beam node count barely matter; **collision detection dominates**. `alarmDistance` 12 → 5 cuts the step to 6.5 ms (−79 %) but the catheter surface starts penetrating the wall (up to 0.42 mm).
+
+Caveats: measured in the Editor, transseptal radius still at the `TEMP` 6.5 mm, and input is still limited to one key event per frame, so faster configs pushed the catheter further.
+
 ## Where this stands
 
 - **Translation (advance/retract) tunneling**: mostly fixed. The narrow transseptal point is still the weak spot.
 - **Rotation tunneling**: not fixed. Confirmed geometric (swept-arc reaches wall), not a solver-convergence or input-rate issue. Eight tuning rounds in, still occurs.
 - Best read on this: we're close to the practical ceiling of discrete collision detection + LCP contact resolution for "thin curved rod sweeping past a thin shell." This exact failure mode is its own research topic in the surgical-sim literature (Duriez et al. 2006; Alderliesten et al. 2007), not something that falls out of parameter tuning.
 
-**Next**: once the CT-reconstruction pipeline (Marching Cubes on patient DICOM) produces a real vessel mesh, a lot of the current edge cases tied to this idealized generated tube may just go away, or need re-evaluating against real anatomy. Diminishing returns on tuning the placeholder geometry further before that lands. Longer-term, actually fixing the rotation case would mean continuous collision detection or a dedicated broad-phase for swept/rotational motion — that's an algorithms project, not a config change.
+**Next**: remove the remaining input/frame coupling and run a full `alarmDistance` × collision-discretization × `dt` sweep (see the benchmark log). Once a real anatomy mesh (Marching Cubes on the public left-atrial-appendage CT dataset) replaces the placeholder, a lot of the current edge cases tied to this idealized generated tube may just go away, or need re-evaluating against real anatomy. Diminishing returns on tuning the placeholder geometry further before that lands. Longer-term, actually fixing the rotation case would mean continuous collision detection or a dedicated broad-phase for swept/rotational motion — that's an algorithms project, not a config change.
 
 ---
 

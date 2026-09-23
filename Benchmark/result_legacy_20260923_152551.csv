@@ -1,0 +1,6 @@
+mode,phase,real_s,frames,fps_mean,frame_ms_mean,frame_ms_p95,steps,physics_hz_real,step_ms_mean,step_ms_p50,step_ms_p95,step_ms_max,backlog_frames_pct,capped_frames,key_presses,clearance_samples,surface_contact_samples,centerline_outside_samples,min_clearance_mm,max_surface_penetration_mm
+legacy,idle,8.07,128,15.9,62.89,76.41,128,15.9,30.931,30.632,32.967,35.817,100.0,128,0,128,0,0,1.88,-1.88
+legacy,advance,18.00,244,13.6,73.84,95.31,244,13.6,41.011,40.556,52.786,67.390,100.0,244,244,244,0,0,0.19,-0.19
+legacy,rotate,10.07,125,12.4,80.45,96.30,125,12.4,47.516,48.416,55.671,67.881,100.0,125,19,125,2,0,-0.12,0.12
+legacy,retract,10.03,125,12.5,80.38,94.87,125,12.5,47.154,47.189,53.742,56.730,100.0,125,125,125,0,0,0.04,-0.04
+legacy,ALL,46.17,622,13.5,74.23,94.78,622,13.5,41.478,42.560,53.058,67.881,,,,,,,,
