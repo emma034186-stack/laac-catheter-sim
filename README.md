@@ -175,7 +175,7 @@ Full write-up: [Devlog/2026-09-23-performance-benchmark.md](Devlog/2026-09-23-pe
 
 Added step timing to `SofaContext` plus a scripted, repeatable manoeuvre runner (menu **LAAC → Run Benchmark**) instead of judging collision "feel".
 
-- **One SOFA step costs ~31 ms**; real time at `dt = 5 ms` and 60 FPS needs < 5 ms. Neither stepping variant is real time.
+- **One SOFA step costs ~31 ms**; real time at `dt = 5 ms` needs < 5 ms. Neither stepping variant is real time.
 - The 2026-09-18 catch-up loop doubles the physics rate (13.5 → 27.3 Hz) but drops rendering from 13.5 to 2.7 FPS: every frame hits the 10-step cap.
 - One-factor ablation: LCP `maxIt` and beam node count barely matter; **collision detection dominates**. `alarmDistance` 12 → 5 cuts the step to 6.5 ms (−79 %) but the catheter surface starts penetrating the wall (up to 0.42 mm).
 
