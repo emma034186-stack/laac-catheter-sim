@@ -177,7 +177,7 @@ Added step timing to `SofaContext` plus a scripted, repeatable manoeuvre runner 
 
 - **One SOFA step costs ~31 ms**; real time at `dt = 5 ms` needs < 5 ms. Neither stepping variant is real time.
 - The 2026-09-18 catch-up loop doubles the physics rate (13.5 → 27.3 Hz) but drops rendering from 13.5 to 2.7 FPS: every frame hits the 10-step cap.
-- One-factor ablation: LCP `maxIt` and beam node count barely matter; **collision detection dominates**. `alarmDistance` 12 → 5 cuts the step to 6.5 ms (−79 %) but the catheter surface starts penetrating the wall (up to 0.42 mm).
+- One-factor ablation: LCP `maxIt` and beam node count barely matter; **collision detection dominates**. `alarmDistance` 12 → 5 cuts the idle step to 6.5 ms (−79 %). The 5 mm run also showed surface penetration (up to 0.42 mm), but the runs advanced different distances (key input is still tied to the render frame), so whether `alarmDistance` causes it awaits re-measurement after input decoupling.
 
 Caveats: measured in the Editor, transseptal radius still at the `TEMP` 6.5 mm, and input is still limited to one key event per frame, so faster configs pushed the catheter further.
 
